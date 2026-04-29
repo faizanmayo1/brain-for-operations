@@ -4,9 +4,11 @@ import {
   HelpCircle,
   RotateCw,
   Search,
+  Sparkles,
 } from "lucide-react";
 import { Button } from "@/ui/button";
 import { useNav, type RouteKey } from "@/lib/nav";
+import { useCommandPalette } from "@/components/command-palette/CommandPaletteProvider";
 
 const labels: Record<RouteKey, string> = {
   "command-center": "Command Center",
@@ -23,6 +25,8 @@ const labels: Record<RouteKey, string> = {
 
 export function Topbar() {
   const { route } = useNav();
+  const palette = useCommandPalette();
+
   return (
     <header className="h-14 flex items-center px-6 gap-3 border-b border-border-subtle bg-surface/80 backdrop-blur-xl sticky top-0 z-30">
       <div className="flex items-center gap-1.5 text-[12.5px]">
@@ -40,13 +44,19 @@ export function Topbar() {
       </div>
 
       <div className="flex-1 flex justify-center">
-        <button className="group relative w-[440px] h-9 flex items-center gap-2 px-3 rounded-[8px] bg-canvas border border-border-subtle hover:border-border-strong transition-colors">
+        <button
+          onClick={() => palette.open()}
+          className="group relative w-[460px] h-9 flex items-center gap-2 px-3 rounded-[8px] bg-canvas border border-border-subtle hover:border-accent-500/40 transition-colors"
+        >
           <Search
-            className="h-3.5 w-3.5 text-text-tertiary"
+            className="h-3.5 w-3.5 text-text-tertiary group-hover:text-text-secondary transition-colors"
             strokeWidth={2}
           />
           <span className="flex-1 text-left text-[12.5px] text-text-tertiary">
             Search signals, decisions, zones — or ask Copilot
+          </span>
+          <span className="inline-flex items-center gap-1 text-[10.5px] text-ai">
+            <Sparkles className="h-2.5 w-2.5" strokeWidth={2.4} />
           </span>
           <kbd className="mono text-[10px] text-text-tertiary bg-surface-2 border border-border-subtle rounded px-1.5 py-px">
             ⌘K

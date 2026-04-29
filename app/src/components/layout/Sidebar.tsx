@@ -16,6 +16,7 @@ import {
 import { cn } from "@/lib/cn";
 import { Overline } from "../primitives/Overline";
 import { useNav, type RouteKey } from "@/lib/nav";
+import { useCommandPalette } from "@/components/command-palette/CommandPaletteProvider";
 
 interface NavItem {
   key: RouteKey;
@@ -94,6 +95,7 @@ function NavRow({ item }: { item: NavItem }) {
 }
 
 export function Sidebar() {
+  const palette = useCommandPalette();
   return (
     <aside className="w-[240px] flex-shrink-0 h-full bg-surface border-r border-border-subtle flex flex-col">
       <button className="flex items-center gap-2.5 px-3 h-14 border-b border-border-subtle hover:bg-surface-2 transition-colors">
@@ -119,7 +121,10 @@ export function Sidebar() {
       </button>
 
       <div className="px-3 pt-3">
-        <button className="w-full flex items-center gap-2 h-8 px-2.5 rounded-[6px] bg-surface-2 hover:bg-elevated border border-border-subtle text-[12.5px] text-text-tertiary transition-colors">
+        <button
+          onClick={() => palette.open()}
+          className="w-full flex items-center gap-2 h-8 px-2.5 rounded-[6px] bg-surface-2 hover:bg-elevated hover:border-accent-500/40 border border-border-subtle text-[12.5px] text-text-tertiary hover:text-text-secondary transition-colors"
+        >
           <Sparkles className="h-3.5 w-3.5 text-ai" strokeWidth={2} />
           <span className="flex-1 text-left">Ask Copilot or search</span>
           <kbd className="mono text-[10px] text-text-tertiary bg-canvas border border-border-subtle rounded px-1 py-px">

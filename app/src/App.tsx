@@ -10,6 +10,7 @@ import { IntegrationsRoute } from "@/routes/integrations";
 import { GovernanceRoute } from "@/routes/governance";
 import { SettingsRoute } from "@/routes/settings";
 import { NavProvider, useNav } from "@/lib/nav";
+import { CommandPaletteProvider } from "@/components/command-palette/CommandPaletteProvider";
 
 function RouteSwitch() {
   const { route } = useNav();
@@ -42,9 +43,11 @@ function RouteSwitch() {
 function App() {
   return (
     <NavProvider initial="command-center">
-      <AppShell>
-        <RouteSwitch />
-      </AppShell>
+      <CommandPaletteProvider>
+        <AppShell>
+          <RouteSwitch />
+        </AppShell>
+      </CommandPaletteProvider>
     </NavProvider>
   );
 }

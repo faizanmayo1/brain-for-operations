@@ -8,7 +8,7 @@ export const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "relative rounded-card bg-surface border border-border-subtle",
+      "relative rounded-card bg-surface border border-border-subtle card-refined transition-colors",
       className
     )}
     {...props}
@@ -22,7 +22,7 @@ export const CardHeader = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={cn(
-      "flex items-center justify-between px-5 pt-5 pb-3",
+      "relative flex items-center justify-between px-5 pt-5 pb-3",
       className
     )}
     {...props}
@@ -46,7 +46,7 @@ export const CardBody = ({
   className,
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
-  <div className={cn("px-5 pb-5", className)} {...props} />
+  <div className={cn("relative px-5 pb-5", className)} {...props} />
 );
 
 export const CardFooter = ({
@@ -55,7 +55,7 @@ export const CardFooter = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={cn(
-      "flex items-center justify-between px-5 py-3 border-t border-border-subtle",
+      "relative flex items-center justify-between px-5 py-3 border-t border-border-subtle",
       className
     )}
     {...props}
