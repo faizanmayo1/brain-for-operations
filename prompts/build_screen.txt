@@ -1,0 +1,25 @@
+Use BUILD mode.
+
+Build a SaaS screen.
+
+you can use frontend claude skill
+
+Screen Name:
+Based on the documents build screens one by one
+
+Purpose:
+[DESC]
+
+Include:
+- Header
+- KPI cards
+- Table
+- Charts
+- Status badges
+- Modal
+
+Use:
+React + TypeScript + Tailwind + shadcn
+
+Use mock data.
+Make it premium UI.

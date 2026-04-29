@@ -1,0 +1,9 @@
+Use REASONING mode.
+
+Create a client demo script.
+
+Give:
+1. Opening line
+2. Step-by-step demo flow
+3. What to say on each screen
+4. Closing line to push deal

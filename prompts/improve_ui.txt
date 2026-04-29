@@ -1,0 +1,13 @@
+Use DESIGN mode.
+
+Improve this UI.
+
+Make it:
+- Fully functional
+- Premium
+- Clean
+- Better spacing
+- Better colors
+- More modern
+Code:
+[paste]

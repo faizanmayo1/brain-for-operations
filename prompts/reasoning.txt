@@ -1,0 +1,197 @@
+Use REASONING mode.
+
+You are a senior product manager + presales demo engineer.
+
+Do NOT write code.
+
+Give:
+1. Product explanation
+2. Users
+3. Pain points
+4. Demo story
+5. Screens (max 8-10)
+6. SignIn/SignUp flow
+7. Sidebar navigation
+8. Dashboard idea
+9. Top 3 important screens
+
+Requirements:
+Demo Features
+
+1. Unified Signal Intelligence Command Center
+Goal
+Bring data, context, and timing into a single structured intelligence layer.
+Features
+Unified ingestion across:
+Contextual data streams
+Time-based signals
+Operational inputs
+External risk indicators
+Behavioral and event-driven signals
+AI signal processing:
+Signal clustering (risk / opportunity / noise)
+Context tagging (time sensitivity, impact level)
+Cross-signal correlation
+Multi-dimensional visibility:
+Risk level
+Urgency
+Confidence score
+Decision relevance
+Priority queue for:
+High-impact signals
+Time-sensitive risks
+Decision-critical events
+Demo Moment
+Show fragmented signals → AI organizes them → only high-priority decision signals surface.
+2. Real-Time Context-Aware Risk Engine
+Goal
+Turn static risk indicators into dynamic, context-driven intelligence.
+Features
+Live scoring based on:
+Probability
+Impact
+Timing
+Context-aware adjustments:
+Changes with new data
+Adapts to external events
+Reflects internal actions
+Multi-layer risk intelligence:
+Immediate risk
+Emerging risk
+Hidden risk patterns
+Demo Moment
+A risk signal evolves in real time as context changes, updating its priority instantly.
+3. AI Decision Intelligence Layer (Core Differentiator)
+Goal
+Convert signals into actionable decision guidance.
+Features
+AI-generated outputs:
+Recommended actions
+Decision reasoning
+Expected impact
+Comparative analysis:
+Option A vs B vs C
+Risk vs reward breakdown
+Confidence scoring for decisions
+Demo Moment
+System recommends a decision and shows measurable impact (risk reduction or efficiency gain).
+4. Scenario Simulation & Predictive Modeling
+Goal
+Enable decision testing before execution.
+Features
+“What-if” simulations:
+Modify variables
+Predict outcomes
+Scenario comparison:
+Best vs worst case
+Risk-adjusted outcomes
+Outcome visualization:
+Impact projections
+Decision curves
+Demo Moment
+Run multiple scenarios → show how different decisions change outcomes.
+5. Context + Timing Prioritization Engine
+Goal
+Ensure teams focus only on what truly matters.
+Features
+AI prioritization using:
+Time sensitivity
+Business impact
+Risk severity
+Signal confidence
+Outputs:
+Immediate action required
+Monitor
+Ignore
+Demo Moment
+System auto-ranks events and highlights top decision priorities.
+6. Decision-to-Execution Layer
+Goal
+Eliminate the gap between insight and action.
+Features
+Triggerable actions:
+Workflow automation
+Alerts and notifications
+Task creation
+API-based execution
+Closed-loop flow:
+Signal → Decision → Action
+Demo Moment
+AI recommendation → approved → action executed instantly.
+7. Continuous Learning & Feedback Engine
+Goal
+Improve system intelligence over time.
+Features
+Tracks:
+Decisions taken
+Outcomes achieved
+AI improvements:
+Better recommendations
+More accurate risk scoring
+Adaptive prioritization
+Demo Moment
+Show how past outcomes refine future decisions.
+8. Decision Copilot (Executive AI Layer)
+Goal
+Provide instant strategic clarity through AI.
+Features
+Natural language queries:
+Where is risk increasing?
+What needs immediate attention?
+What actions have highest impact?
+Outputs:
+Ranked insights
+Root cause analysis
+Recommended actions
+Demo Moment
+Ask: “What decisions should we take right now?” → AI responds with ranked actions.
+9. Multi-Agent Decision Orchestration
+Goal
+Automate coordination across complex decision flows.
+Features
+AI agents for:
+Risk monitoring
+Decision analysis
+Execution coordination
+Resource allocation
+Modes:
+Recommendation only
+Human approval
+Semi-autonomous execution
+Demo Moment
+A risk event triggers multiple agents coordinating resolution automatically.
+10. Data Fabric & Integration Layer
+Goal
+Create a unified intelligence layer over existing systems.
+Integrations
+Internal systems
+External APIs
+Event streams
+Data pipelines
+Capabilities:
+Real-time updates
+Data normalization
+Event-driven triggers
+Continuous AI model refresh
+Demo Moment
+New data enters → risk score + decision updates instantly.
+11. KPI & Decision Impact Layer
+Goal
+Quantify value created by better decisions.
+KPIs
+Decision speed improvement
+Risk reduction
+Accuracy of predictions
+Operational efficiency
+Outcome success rate
+Demo Moment
+Dashboard showing measurable gains from AI-driven decisions.
+12. Security, Governance & Control
+Features
+Role-based access
+Decision audit trails
+Explainability layer
+Approval workflows
+Human oversight controls
+Demo Moment
+Approve a decision with full transparency and audit history.

@@ -1,0 +1,18 @@
+Use DESIGN mode.
+
+You are a senior SaaS designer.
+
+Create premium UI:
+- Clean
+- Modern
+- Enterprise
+
+Give:
+1. Colors
+2. Typography
+3. Cards
+4. Tables
+5. Charts
+6. Layout
+7. Sidebar
+8. Dashboard UI

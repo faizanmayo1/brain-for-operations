@@ -1,0 +1,13 @@
+Use REASONING mode.
+
+You are a frontend architect.
+
+Tech:
+React + TypeScript + Tailwind + shadcn
+
+Give:
+1. Folder structure
+2. Component structure
+3. Routing
+4. Mock data location
+5. Reusable components
